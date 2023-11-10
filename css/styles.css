@@ -11255,7 +11255,7 @@ p {
     Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji",
     "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
   font-size: 0.95rem;
-  color: #000;
+  color: #515a70;
   letter-spacing: 0.0625em;
 }
 #mainNav .navbar-nav .nav-item .nav-link.active,
@@ -11303,7 +11303,7 @@ header.masthead {
   padding-bottom: 6rem;
   text-align: center;
   color: #000;
-  background-image: url("");
+  background-image: url("../assets/img/about/bg_yonsei3-001.png");
   background-repeat: no-repeat;
   background-attachment: scroll;
   background-position: center center;
