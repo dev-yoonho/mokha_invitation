@@ -296,38 +296,20 @@
         </div>
         <div class="row">
           <div class="col-lg-4">
-            <div class="team-member">
-              <a
-                href="https://map.naver.com/p/directions/-/14130700.4505013,4516676.040066,%EC%84%9C%EC%9A%B8%EC%82%B4%EB%A1%B1,1233807794,PLACE_POI/-/car?c=15.00,0,0,0,dh"
-              >
-                <img
-                  class="mx-auto rounded-circle"
-                  src="assets/img/logos/naver_map_logo.webp"
-                  alt="..."
-                />
-              </a>
-              <h4>네이버 지도</h4>
-              <p class="text-muted">테스트테스트</p>
-            </div>
+            <div
+              class="team-member"
+              id="map"
+              style="width: 100%; height: 100%; text-align: center"
+            ></div>
+            <script
+              type="text/javascript"
+              src="//dapi.kakao.com/v2/maps/sdk.js?appkey=3aac3c0413c8f85c3200aa776edaafac"
+            ></script>
+            <script src="js/map.js"></script>
           </div>
           <div class="col-lg-4">
             <div class="team-member">
-              <a
-                href="https://map.kakao.com/link/to/서울살롱,37.554455063814935, 126.93824494929687"
-              >
-                <img
-                  class="mx-auto rounded-circle"
-                  src="assets/img/logos/kakao_map_logo2.jpg"
-                  alt="..."
-                />
-              </a>
-              <h4>카카오맵</h4>
-              <p class="text-muted">테스트테스트</p>
-            </div>
-          </div>
-          <div class="col-lg-4">
-            <div class="team-member">
-              <a href="https://surl.tmobiapi.com/6b7268e9">
+              <a href="https://surl.tmobiapi.com/b3be8ccc">
                 <img
                   class="mx-auto rounded-circle"
                   src="assets/img/logos/Tmap.svg"
@@ -420,6 +402,7 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
     <!-- Core theme JS-->
     <script src="js/scripts.js"></script>
+
     <!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *-->
     <!-- * *                               SB Forms JS                               * *-->
     <!-- * * Activate your form at https://startbootstrap.com/solution/contact-forms * *-->
